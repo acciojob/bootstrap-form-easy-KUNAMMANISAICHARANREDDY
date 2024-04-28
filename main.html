@@ -3,12 +3,59 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	<div class="border border-light p-100 m-2">
+<h1 class="content text-center">Internship Form </h1>
+		<div class="row">
+  <div class="col">
+	  <label>First Name</label>
+    <input type="text" class="first-name-input" placeholder="First name" aria-label="First name">
+  </div>
+  <div class="col">
+	  <label>Last name</label>
+    <input type="text" class="last-name-input" placeholder="Last name" aria-label="Last name">
+  </div>
+			<div class="col">
+	  <label>Email Address</label>
+    <input type="email" class="email-input" placeholder="xyz@abc.com" aria-label="Email Address">
+  </div>
+</div>
+		<div class="row">
+			<div class="col">
+				<label>College</label>
+				<input type="text" class="college-input" aria-label="College">
+			</div>
+			<div class="col">
+	  <label>Graduation Year</label>
+	<select class="form-select" aria-label="Graduation Year">
+  <option selected>Choose..</option>
+  <option value="1">2020</option>
+  <option value="2">2021</option>
+  <option value="3">2022</option>
+		<option value="3">2023</option>
+</select>	
+  </div>
+			<div class="col">
+				<label>Roll No.</label>
+				<input type="number" class="roll-no-input" aria-label="Roll No.">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+			<input type="checkbox" class="conditions-checkbox">
+				Agree to terms and conditions
+				you must agree before sunmitting 
+	</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<button class= "bg-primary text-white ">Submit form</button>
+			</div>
+		</div>
+	</div>
 </script>
 
 </body>
